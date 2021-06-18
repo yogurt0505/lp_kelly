@@ -1,0 +1,65 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+// BREAKPOINTS
+$md-breakpoint-width: 768px;
+
+// Variable
+$sidebar_width : 230px;
+$topnav_height: 56px;
+
+// COLORS
+$topnav_bg_color: #2E3449;
+$navbar_bg_color:  #ffffff;
+$sidebar_bg_color: #18203A;
+
+// Z-INDEXES
+$topnav_zindex: 2000;
+$sidebar_zindex: 1000;
+$content_zindex: 500;
+$overlay_zindex: 900;
+
+
+@import 'globals';
+@import 'sidebar';
+@import 'icons';
+@import 'animations';
+@import 'navbar';
+
+#topnav {
+
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: $topnav_height;
+  padding:12px;
+  background-color: $topnav_bg_color;
+  z-index: $topnav_zindex;
+
+}
+
+#wrapper {
+
+  display: flex;
+  flex-direction: row;
+//   width: 100vw;
+//   height: 100vh;
+
+}
+
+#content-wrapper{
+
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding-left: $sidebar_width;
+  margin-top: $topnav_height;
+//   height: 100vh;
+
+  @media (max-width: $md-breakpoint-width) {
+    padding-left: 0;
+  }
+
+}
+
+
+

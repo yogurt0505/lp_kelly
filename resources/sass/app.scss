@@ -1,0 +1,20 @@
+
+// Primary color
+
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+$primary: #00B57F;
+
+.navbar-laravel {
+  background-color: rgb(141, 44, 44);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}

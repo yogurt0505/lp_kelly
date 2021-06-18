@@ -1,0 +1,29 @@
+.admin-navbar {
+    height: 50px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-bottom: 14px;
+    background-color: $navbar_bg_color;
+    -webkit-box-shadow: 0 4px 4px 0 rgba(120, 120, 120, 0.16);
+    box-shadow: 0 4px 4px 0 rgba(120, 120, 120, 0.16);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+
+    position: fixed;
+    width: 100%;
+
+    @media (min-width: $md-breakpoint-width) {
+      width: calc(100% - #{$sidebar_width});
+    }
+
+    & span {
+      color: rgb(29, 29, 29);
+      font-weight: bold;
+    }
+
+    z-index: 200;
+  }
