@@ -27,7 +27,7 @@
   <h3 class="section-heading font-weight-bold pt-3">Explore Our Courses</h3>
    </div>
 
-   
+
    <!-- courses cards carousel -->
    <div class="pt-2 pb-5">
     <div class="container">
@@ -43,19 +43,87 @@
                     <i class="bi bi-arrow-right"></i>
                 </a>
             </div>
-            <div class="col-12">
+            <!--s--><div class="col-12">
                 <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-                <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
+              
                     <div class="carousel-inner">
                         <div class="carousel-item active">
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                             <div class="row">
 
-                            <div class="col-4">
-<div class="card mb-3 " style="max-width: 350px;">
+<div class="col-lg-4">
+<div class="card mb-3">
+  <div class="row g-0">
+    <div class="col-md-5 ">
+      <img src="{{url('/img/background7.jpg')}}" alt="..." class="card-image img-fluid img-cover">
+    </div>
+    <div class="col-md-7">
+      <div class="card-body">
+        <h4 class="card-title">PHP</h4>
+        <p class="card-text"><small class="text-muted">RM 499.00</small></p>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="card mb-3">
+  <div class="row g-0">
+    <div class="col-md-5">
+      <img src="{{url('/img/Optimized-Illustration-from-Adobe-Stock-for-ITC-Post-on-AI-in-Game-Development-scaled.jpeg')}}" alt="..." class="card-image img-fluid img-cover">
+    </div>
+    <div class="col-md-7">
+      <div class="card-body">
+      <h4 class="card-title">Unity</h4>
+        <p class="card-text"><small class="text-muted">RM 599.00</small></p>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="card mb-3">
+  <div class="row g-0 ">
+    <div class="col-md-5">
+      <img src="{{url('/img/1_qKcHOdj97r4LBbqLP-7-kA-_1_.png')}}" alt="..." class="card-image img-fluid img-cover">
+    </div>
+    <div class="col-md-7">
+      <div class="card-body">
+      <h4 class="card-title">Blender</h4>
+        <p class="card-text"><small class="text-muted">RM 499.00</small></p>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+
+ <div class="col-lg-4">
+<div class="card mb-3">
+  <div class="row g-0">
+    <div class="col-md-5">
+      <img src="{{url('/img/1_qKcHOdj97r4LBbqLP-7-kA-_1_.png')}}" alt="..." class="card-image img-fluid img-cover">
+    </div>
+    <div class="col-md-7">
+      <div class="card-body">
+      <h4 class="card-title">Blender</h4>
+        <p class="card-text"><small class="text-muted">RM 499.00</small></p>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="card mb-3">
   <div class="row g-0">
     <div class="col-md-5">
       <img src="{{url('/img/background7.jpg')}}" alt="..." class="card-image img-fluid img-cover">
@@ -70,78 +138,8 @@
   </div>
 </div>
 </div>
-<div class="col-4">
-<div class="card mb-3 " style="max-width: 350px;">
-  <div class="row g-0">
-    <div class="col-md-5">
-      <img src="{{url('/img/Optimized-Illustration-from-Adobe-Stock-for-ITC-Post-on-AI-in-Game-Development-scaled.jpeg')}}" alt="..." class="card-image img-fluid img-cover">
-    </div>
-    <div class="col-md-7">
-      <div class="card-body">
-      <h4 class="card-title">Unity</h4>
-        <p class="card-text"><small class="text-muted">RM 599.00</small></p>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-<div class="col-4">
-<div class="card mb-3 " style="max-width: 350px;">
-  <div class="row g-0">
-    <div class="col-md-5">
-      <img src="{{url('/img/1_qKcHOdj97r4LBbqLP-7-kA-_1_.png')}}" alt="..." class="card-image img-fluid img-cover">
-    </div>
-    <div class="col-md-7">
-      <div class="card-body">
-      <h4 class="card-title">Blender</h4>
-        <p class="card-text"><small class="text-muted">RM 499.00</small></p>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-
-                            <div class="col-4">
-<div class="card mb-3 " style="max-width: 350px;">
-  <div class="row g-0">
-    <div class="col-md-5">
-      <img src="{{url('/img/1_qKcHOdj97r4LBbqLP-7-kA-_1_.png')}}" alt="..." class="card-image img-fluid img-cover">
-    </div>
-    <div class="col-md-7">
-      <div class="card-body">
-      <h4 class="card-title">Blender</h4>
-        <p class="card-text"><small class="text-muted">RM 499.00</small></p>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-<div class="col-4">
-<div class="card mb-3 " style="max-width: 350px;">
-  <div class="row g-0">
-    <div class="col-md-5">
-      <img src="{{url('/img/background7.jpg')}}" alt="..." class="card-image img-fluid img-cover">
-    </div>
-    <div class="col-md-7">
-      <div class="card-body">
-        <h4 class="card-title">PHP</h4>
-        <p class="card-text"><small class="text-muted">RM 499.00</small></p>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-<div class="col-4">
-<div class="card mb-3 " style="max-width: 350px;">
+<div class="col-lg-4">
+<div class="card mb-3">
   <div class="row g-0">
     <div class="col-md-5">
       <img src="{{url('/img/Optimized-Illustration-from-Adobe-Stock-for-ITC-Post-on-AI-in-Game-Development-scaled.jpeg')}}" alt="..." class="card-image img-fluid img-cover">
@@ -162,8 +160,8 @@
                         <div class="carousel-item">
                             <div class="row">
 
-                            <div class="col-4">
-<div class="card mb-3 " style="max-width: 350px;">
+                            <div class="col-md-4">
+<div class="card lg-3">
   <div class="row g-0">
     <div class="col-md-5">
       <img src="{{url('/img/Optimized-Illustration-from-Adobe-Stock-for-ITC-Post-on-AI-in-Game-Development-scaled.jpeg')}}" alt="..." class="card-image img-fluid img-cover">
@@ -178,8 +176,8 @@
   </div>
 </div>
 </div>
-<div class="col-4">
-<div class="card mb-3 " style="max-width: 350px;">
+<div class="col-lg-4">
+<div class="card mb-3">
   <div class="row g-0">
     <div class="col-md-5">
       <img src="{{url('/img/1_qKcHOdj97r4LBbqLP-7-kA-_1_.png')}}" alt="..." class="card-image img-fluid img-cover">
@@ -194,8 +192,8 @@
   </div>
 </div>
 </div>
-<div class="col-4">
-<div class="card mb-3 " style="max-width: 350px;">
+<div class="col-lg-4">
+<div class="card mb-3">
   <div class="row g-0">
     <div class="col-md-5">
       <img src="{{url('/img/background7.jpg')}}" alt="..." class="card-image img-fluid img-cover">
@@ -218,23 +216,37 @@
         </div>
     </div>
 
+    <!-- pagination -->
+    <nav aria-label="Page navigation example">
+  <div class="pagination_circle justify-content-center">
+  
+    <div class="pagination_circle__dot pagination_circle__dot--active" href="#carouselExampleIndicators2" data-bs-slide-to="0" aria-selected="true" aria-label="Slide 1" role="button" data-slide-to="0"></div>
+    <div class="pagination_circle__dot"href="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2" role="button" aria-selected="false" data-slide-to="1"></div>
+    <div class="pagination_circle__dot" href="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3" role="button" aria-selected="false"data-slide-to="2"></div>
+    
+</div>
+</nav>
 
  <!-- title: Students from Company -->
- <div class="text-center pt-5 pb-4">
+ <div class="text-center pt-5 pb-1">
   <h3 class="section-heading font-weight-bold pt-3">Students From Companies</h3>
    </div>
 </div>
-
+ 
 <!-- Company Logo-->
 <div class="row">
-<div class="col-4">
-  <img src="{{url('/img/google-logo.png')}}" alt="..."  class="w-100">
-</div>
-<div class="col-4">
-  <img src="{{url('/img/intel-logo.png')}}" alt="..."  class="w-100">
-</div>
-<div class="col-4">
-  <img src="{{url('/img/nVidia-Company-Logo.jpg')}}" alt="..."  class="w-100">
+<div class="col-3">
+<img src="{{url('/img/google-logo.png')}}" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="180" height="180" loading="lazy">
+     </div>
+<div class="col-3">
+<img src="{{url('/img/intel-logo.png')}}" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="180" height="180" loading="lazy">
+ </div>
+<div class="col-3">
+<img src="{{url('/img/nVidia-Company-Logo.jpg')}}" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="180" height="180" loading="lazy">
+ </div>
+ <div class="col-3">
+<img src="{{url('/img/microsoft-logo.png')}}" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="180" height="180" loading="lazy">
+ </div>
 </div>
 
 <!-- Heading: -->

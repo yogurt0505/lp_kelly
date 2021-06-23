@@ -28,6 +28,8 @@ Route::view('/ins_info','ins_info');
 
 Route::view('/become_ins','become_ins');
 
+Route::view('student/stu_dashboard','student/stu_dashboard');
+
 Route::view('/test','test');
 /////////////////
 // ADMIN
