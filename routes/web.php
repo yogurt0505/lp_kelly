@@ -30,6 +30,12 @@ Route::view('/become_ins','become_ins');
 
 Route::view('student/stu_dashboard','student/stu_dashboard');
 
+Route::view('student/lesson_view','student/lesson_view');
+
+Route::view('student/blog_view','student/blog_view');
+
+Route::view('instructor/ins_dashboard','instructor/ins_dashboard');
+
 Route::view('/test','test');
 /////////////////
 // ADMIN

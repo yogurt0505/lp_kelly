@@ -15,6 +15,9 @@
 $primary: #00B57F;
 $card-height: 100%;
 
+
+//text design
+
 a {
   color: #00B57F;
   text-decoration: none;
@@ -24,6 +27,13 @@ a {
 a:hover {
   color: #1cc290;
   text-decoration: underline;
+}
+
+p.blog {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #343A40;
+  font-size: 16px
 }
 
 //timeline design
@@ -150,6 +160,23 @@ ul.timeline > li:before {
   height:100%;
 
   
+}
+
+//video
+
+video {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+//list group highlight color
+
+
+.list-group-item.active {
+  z-index: 2;
+  color: #fff;
+  background-color: #00B57F;
+  border-color: #00B57F;
 }
 
 //pagination circle style

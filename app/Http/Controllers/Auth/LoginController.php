@@ -25,13 +25,30 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/admin';
+    protected $redirectTo = '/student/stu_dashboard';
 
     /**
      * Create a new controller instance.
      *
      * @return void
      */
+
+
+    public function  authenticated()
+    {
+
+
+        if (auth()->user()->is_student == true){
+
+            return redirect('/student/stu_dashboard');
+
+        }
+
+        else if (auth()->user()->is_instructor == true){
+
+            return redirect('/instructor/ins_dashboard');
+        }
+    }
     public function __construct()
     {
         $this->middleware('guest')->except('logout');

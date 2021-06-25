@@ -43,16 +43,7 @@
           <a class="nav-link" href="/all_course">Course</a>
         </li>
         <li class="nav-item">
-          
-          <a class="nav-link" href="/login">Login</a>
-        </li>
-       
-        <form class="container-fluid justify-content-start">
-           <button class="btn btn-primary me-2" type="button" onclick="window.location.href='/register';">Get Started</button>
-         </form>
-      </ul>   
-
-      <a class="btn btn-primary me-2" onclick="
+        <a class="btn btn-primary me-2" onclick="
       event.preventDefault();
       var result = confirm('Are you sure want to logout?');
       if (result == true){
@@ -64,12 +55,15 @@
               <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                 @csrf
               </form>
-
-
+  
+        </li>
+        
+      </ul>   
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Type anything..." aria-label="Search">
         <button class="btn btn-primary" type="submit">Search</button>
       </form>
+
     </div>
   </div>
 </nav>
